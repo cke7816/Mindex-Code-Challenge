@@ -2,7 +2,6 @@ package com.mindex.challenge.service.impl;
 
 import com.mindex.challenge.data.Employee;
 import com.mindex.challenge.data.ReportingStructure;
-import com.mindex.challenge.service.ReportingStructureService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,9 +23,6 @@ public class ReportingStructureServiceImplTest {
 
     private String employeeUrl;
     private String reportingSructureIdURL;
-
-    @Autowired
-    private ReportingStructureService reportingStructureService;
 
     @LocalServerPort
     private int port;
